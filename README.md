@@ -6,7 +6,5 @@ Este repositório contém modelos e exemplos de landing pages prontos para uso o
 
 1. Escolha um projeto de sua escolha e utilize o seguinte comando para clonar os arquivos utilizados:
 
-Exemplo:
-
 ```bash
-git clone https://github.com/kklopex/LandingPages/nome-do-repositorio.git
+git clone https://github.com/kklopex/LandingPages.git
