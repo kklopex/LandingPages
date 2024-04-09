@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik;
+}
+
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(66,66,255,1) 100%);
+}
+
+input {
+    width: 30%;
+    margin: 16px;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    outline: none;
+    background: transparent;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.nav{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4242ff;
+}
+
+.logo-icon{
+    display: block;
+    margin: auto;
+    width: 5rem;
+    max-width: 100%;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15%;
+}
+
+.main .container{
+    max-width: 37rem;
+}
+
+.main .imagem-principal {
+   width: 100%;
+   border-radius: 60rem;
+   box-shadow: 9px 17px 30px -5px rgba(0,0,0,0.75);
+}
+
+.main .text-h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+    color: #181818;
+}
+
+.main .text-h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #4242ff;
+}
+
+.home-btn {
+    padding: 15px 45px;
+    text-decoration: none;
+    color: white;
+    background-color: #4242ff;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.5;
+}
+
+.footer-painel {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  color: white;
+  background-color: #4242ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-painel .btn-sub{
+    padding: 10px 35px;
+    text-decoration: none;
+    color: #181818;
+    background-color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+@media (max-width:785px) {
+
+    .logo{
+       display: flex;
+       text-align: center;
+    }
+
+    .main{
+        padding: 100px 2%;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        gap: 5rem;
+    }
+
+.main .text-h4{
+    font-size: 30px;
+}
+
+.main .text-h1{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.home-img {
+    width: 100%;
+}
+
+}
+
