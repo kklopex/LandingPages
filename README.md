@@ -4,7 +4,7 @@ Este repositório contém modelos e exemplos de landing pages prontos para uso o
 
 ## Como Visualizar
 
-1. Escolha um projeto de sua escolha e utilize o seguinte comando para clonar os arquivos utilizados:
+1. Clone para visualizar cada projeto:
 
 ```bash
 git clone https://github.com/kklopex/LandingPages.git
